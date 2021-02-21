@@ -1,10 +1,10 @@
-.container1{
+.container1, .catsContainer{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
-.flex-box-container-1{
+.flex-box-container-1, .flex-box-cats-container{
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -16,4 +16,9 @@
     display: flex;
     padding: 10px;
     border: 1px solid black;
+}
+
+.flex-box-cats-container img{
+    box-shadow: 0px 10px 50px rgb(71, 70, 70);
+    margin: 10px;
 }
